@@ -19,6 +19,18 @@ LOCAL_PATH := $(call my-dir)
 ifeq ($(TARGET_DEVICE),kuntao)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE := OP6cam
+LOCAL_MODULE_OWNER := lenovo
+LOCAL_SRC_FILES := proprietary/app/OP6cam/OP6cam.apk
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := APPS
+LOCAL_DEX_PREOPT := false
+LOCAL_MODULE_SUFFIX := .apk
+LOCAL_VENDOR_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := libts_detected_face_hal
 LOCAL_MODULE_OWNER := lenovo
 LOCAL_SRC_FILES := proprietary/vendor/lib/libts_detected_face_hal.so
