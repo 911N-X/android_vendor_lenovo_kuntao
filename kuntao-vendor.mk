@@ -307,7 +307,7 @@ PRODUCT_COPY_FILES += \
     vendor/lenovo/kuntao/proprietary/vendor/bin/pm-proxy:$(TARGET_COPY_OUT_VENDOR)/bin/pm-proxy \
     vendor/lenovo/kuntao/proprietary/vendor/bin/pm-service:$(TARGET_COPY_OUT_VENDOR)/bin/pm-service \
     vendor/lenovo/kuntao/proprietary/vendor/bin/qseecomd:$(TARGET_COPY_OUT_VENDOR)/bin/qseecomd \
-    vendor/lenovo/lenovo/proprietary/bin/wfdservice:system/bin/wfdservice \
+    vendor/lenovo/kuntao/proprietary/bin/wfdservice:system/bin/wfdservice \
     vendor/lenovo/kuntao/proprietary/etc/init/wfdservice.rc:system/etc/init/wfdservice.rc \
     vendor/lenovo/kuntao/proprietary/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
     vendor/lenovo/kuntao/proprietary/etc/permissions/com.qti.snapdragon.sdk.display.xml:system/etc/permissions/com.qti.snapdragon.sdk.display.xml \
