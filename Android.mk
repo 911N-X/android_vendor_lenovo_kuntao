@@ -205,19 +205,13 @@ LOCAL_MODULE_OWNER := lenovo
 LOCAL_SRC_FILES := proprietary/framework/qti-telephony-common.jar
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
-<<<<<<< HEAD
 LOCAL_MODULE_CLASS := JAVA_LIBRARIES
 LOCAL_MODULE_SUFFIX := .jar
-=======
-LOCAL_MODULE_CLASS := APPS
-LOCAL_DEX_PREOPT := false
-LOCAL_MODULE_SUFFIX := .apk
-LOCAL_VENDOR_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := WfdCommon
-LOCAL_MODULE_OWNER := xiaomi
+LOCAL_MODULE_OWNER := lenovo
 LOCAL_SRC_FILES := proprietary/framework/WfdCommon.jar
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
@@ -227,13 +221,12 @@ include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := chargeonlymode
-LOCAL_MODULE_OWNER := xiaomi
+LOCAL_MODULE_OWNER := lenovo
 LOCAL_MODULE_PATH := $(TARGET_ROOT_OUT_SBIN)
 LOCAL_UNSTRIPPED_PATH := $(TARGET_ROOT_OUT_SBIN_UNSTRIPPED)
 LOCAL_SRC_FILES := proprietary/rootfs/sbin/chargeonlymode
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := EXECUTABLES
->>>>>>> a3b43a3b... whyred: Add WiFi Display blobs
 include $(BUILD_PREBUILT)
 
 endif
