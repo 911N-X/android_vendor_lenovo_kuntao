@@ -755,5 +755,6 @@ PRODUCT_PACKAGES += \
     QtiTelephonyServicelibrary \
     qcrilhook \
     WfdCommon \
-    qti-telephony-common
+    qti-telephony-common \
+    bootanimation.zip
 
